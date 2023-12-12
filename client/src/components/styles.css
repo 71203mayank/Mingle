@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid red;
+    height: 100vh;
+    background-color: #111;
+}
+
+.video-container {
+    padding: 10px;
+    width: 100%;
+    height: min(100%, 56.25vw);
+}
+
+.video {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 50dvw;
+    background-color: #aaa;
+}
